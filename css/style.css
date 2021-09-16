@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+/*TOPO*/
+.home{
+    background-color: #ffc107;
+    color: white;
+}
+h1.display-4{
+    font-weight: 400;
+}
+
+/*CONTEÚDO*/
+.caixa{
+    padding: 60px 0;
+    border-bottom: 3px solid #e5e5e5;
+}
+
+/*Footer*/
+a.social img{
+    width: 32px;
+    margin-left: 15px;
+    
+}
+
+
+/*Media Querie*/
+@media (max-width: 992px){
+    .home h1{
+        font-size: 3.2em;
+    }
+   
+}
+@media (max-width: 876px){
+    .home img{
+        width: 95%;
+        margin: 5px 0 0 50px;
+    }
+    .home h1{
+       font-size: 3em;
+    }
+    section.caixa{
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px){
+    footer{
+        display: flex;
+        align-items: center;
+    }
+}
+@media (max-width:575px){
+    li a.btn-entrar{
+        margin-right: 15px;
+    }
+}
+@media (min-width:320px) and (max-width: 375px){
+    .home h1{
+        font-size: 2.4em;
+    }
+}
+
